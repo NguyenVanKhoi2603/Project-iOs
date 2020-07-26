@@ -7,25 +7,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrangDocTinTuc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="ghU-rv-hEg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071" y="17"/>
+            <point key="canvasLocation" x="1979.7101449275365" y="16.741071428571427"/>
         </scene>
         <!--New Feed-->
         <scene sceneID="SSt-fe-VMf">
             <objects>
-                <tableViewController id="XfS-za-HGh" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="NewFeedTableView" id="XfS-za-HGh" customClass="NewFeedTableViewController" customModule="TrangDocTinTuc" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="LiJ-7y-082">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +69,7 @@
                     <navigationItem key="navigationItem" title="New Feed" id="qXD-Kx-yQS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Y2d-pe-t6e">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="showDetail" id="WPa-Ry-LzX"/>
+                                <segue destination="qEc-Qy-NkE" kind="showDetail" id="WPa-Ry-LzX"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -92,6 +93,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIG-wi-TU8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-675" y="17"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eOI-Vd-hY1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qEc-Qy-NkE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TTX-dU-5Fa">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TUf-Ga-m92"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hf7-Hp-0gS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5652173913045" y="16.741071428571427"/>
         </scene>
     </scenes>
 </document>

@@ -16,6 +16,8 @@
 		0EF48E7124CDD25B00C749B3 /* TrangDocTinTucTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF48E7024CDD25B00C749B3 /* TrangDocTinTucTests.swift */; };
 		0EF48E7C24CDD25B00C749B3 /* TrangDocTinTucUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF48E7B24CDD25B00C749B3 /* TrangDocTinTucUITests.swift */; };
 		0EF48E8A24CDE0F200C749B3 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF48E8924CDE0F200C749B3 /* News.swift */; };
+		0EF48E8C24CDEA1E00C749B3 /* NewFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF48E8B24CDEA1E00C749B3 /* NewFeedViewController.swift */; };
+		0EF48E8E24CDEA7400C749B3 /* NewFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF48E8D24CDEA7400C749B3 /* NewFeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		0EF48E7B24CDD25B00C749B3 /* TrangDocTinTucUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangDocTinTucUITests.swift; sourceTree = "<group>"; };
 		0EF48E7D24CDD25B00C749B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EF48E8924CDE0F200C749B3 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		0EF48E8B24CDEA1E00C749B3 /* NewFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedViewController.swift; sourceTree = "<group>"; };
+		0EF48E8D24CDEA7400C749B3 /* NewFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				0EF48E6224CDD25B00C749B3 /* Assets.xcassets */,
 				0EF48E6424CDD25B00C749B3 /* LaunchScreen.storyboard */,
 				0EF48E6724CDD25B00C749B3 /* Info.plist */,
+				0EF48E8B24CDEA1E00C749B3 /* NewFeedViewController.swift */,
+				0EF48E8D24CDEA7400C749B3 /* NewFeedTableViewController.swift */,
 			);
 			path = TrangDocTinTuc;
 			sourceTree = "<group>";
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF48E8E24CDEA7400C749B3 /* NewFeedTableViewController.swift in Sources */,
 				0EF48E5E24CDD25A00C749B3 /* ViewController.swift in Sources */,
 				0EF48E5A24CDD25A00C749B3 /* AppDelegate.swift in Sources */,
 				0EF48E8A24CDE0F200C749B3 /* News.swift in Sources */,
 				0EF48E5C24CDD25A00C749B3 /* SceneDelegate.swift in Sources */,
+				0EF48E8C24CDEA1E00C749B3 /* NewFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
